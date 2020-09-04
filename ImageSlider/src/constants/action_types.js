@@ -1,0 +1,3 @@
+export const USERS_DATA = "USERS_DATA";
+export const USERS_DETAILS_DATA = "USERS_DETAILS_DATA";
+export const PROGRESS = "PROGRESS";

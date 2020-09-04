@@ -1,0 +1,44 @@
+{
+  "name": "RdaLabsAssign",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "set-stage": "shx echo export default 'API';> active.env.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^4.2.1",
+    "neumorphic-ui": "^1.1.0",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-config": "^0.12.0",
+    "react-native-device-info": "^2.3.2",
+    "react-native-elements": "^1.2.0",
+    "react-native-neomorph-shadows": "0.0.8",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-search-filter": "^0.1.5",
+    "react-native-svg": "^12.0.3",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.3.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6",
+    "shx": "^0.3.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
